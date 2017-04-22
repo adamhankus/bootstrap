@@ -3,11 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <title>Bootstrap</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/main.js"></script>
+
     <h1>Abrakadabra</h1>
+    <button onclick="klik()">Pacnij</button>
+    <div id="main-content" class="container">
+        <p>tekst 1</p>
+        <p>tekst 2</p>
+        <p>tekst 3</p>
+        <p>tekst 4</p>
+        <p>tekst 5</p>
+        <p>tekst 6</p>
+        <p>tekst 7</p>
+        <p>tekst 8</p>
+    </div>
+
+    <div id="main-content-fluid" class="container-fluid">
+        <p>paragrafy fluid 1</p>
+        <p>paragrafy fluid 2</p>
+        <p>paragrafy fluid 3</p>
+        <p>paragrafy fluid 4</p>
+        <p>paragrafy fluid 5</p>
+        <p>paragrafy fluid 6</p>
+        <p>paragrafy fluid 7</p>
+        <p>paragrafy fluid 8</p>
+        <p>paragrafy fluid 9</p>
+        <p>paragrafy fluid 10</p>
+        <p>paragrafy fluid 11</p>
+        <p>paragrafy fluid 12</p>
+        <p>paragrafy fluid 13</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <p>tekst 1</p>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <p>tekst 2</p>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <p>tekst 3</p>
+            </div>
+            <div class="col-md-6 col-lg-3 text-uppercase">
+                <p>tekst 4</p>
+            </div>
+            <!-- Single button -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action <span class="caret"></span>
+  </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
 </body>
 </html>

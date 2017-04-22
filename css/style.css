@@ -1,3 +1,11 @@
 h1 {
     color: #FF0000;
 }
+
+#main-content {
+    background-color: #E38;
+
+}
+#main-content-fluid {
+    background-color: #00CCFF
+}
